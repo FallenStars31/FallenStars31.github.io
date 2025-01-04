@@ -1,8 +1,8 @@
 import { InlineCode } from "@/once-ui/components";
 
 const person = {
-    firstName: 'Selene',
-    lastName:  'Yu',
+    firstName: 'Naufal',
+    lastName:  'Ikhsan',
     get name() {
         return `${this.firstName} ${this.lastName}`;
     },
@@ -24,22 +24,22 @@ const social = [
     {
         name: 'GitHub',
         icon: 'github',
-        link: 'https://github.com/once-ui-system/nextjs-starter',
+        link: 'https://github.com/FallenStars31',
     },
     {
         name: 'LinkedIn',
         icon: 'linkedin',
-        link: 'https://www.linkedin.com/company/once-ui/',
+        link: 'https://www.linkedin.com/in/naufal-ikhsan-835ba8218/',
     },
     {
-        name: 'X',
-        icon: 'x',
+        name: 'Instagram',
+        icon: 'Instagram',
         link: '',
     },
     {
         name: 'Email',
         icon: 'email',
-        link: 'mailto:example@gmail.com',
+        link: 'naufaliksan78@gmail.com',
     },
 ]
 
@@ -47,8 +47,8 @@ const home = {
     label: 'Home',
     title: `${person.name}'s Portfolio`,
     description: `Portfolio website showcasing my work as a ${person.role}`,
-    headline: <>Design engineer and builder</>,
-    subline: <>I'm Selene, a design engineer at <InlineCode>FLY</InlineCode>, where I craft intuitive<br/> user experiences. After hours, I build my own projects.</>
+    headline: <>Teknik Informatika, Sistem Cerdas</>,
+    subline: <>Saya adalah mahasiswa jurusan Teknik Informatika dengan konsentrasi dalam Sistem Cerdas di Universitas Putra Indonesia YPTK Padang. Saya memiliki minat yang besar dalam bidang teknologi, terutama dalam pengembangan sistem yang dapat meniru atau meningkatkan kemampuan kognitif manusia. Selama kuliah, saya telah mempelajari berbagai topik terkait seperti Knowledge Based System, Fuzzy Logic Programming, serta Digital Image Processing, Artificial Neural Network, dan Natural Language Processing.</>
 }
 
 const about = {
@@ -69,10 +69,10 @@ const about = {
     intro: {
         display: true,
         title: 'Introduction',
-        description: <>Selene is a Jakarta-based design engineer with a passion for transforming complex challenges into simple, elegant design solutions. Her work spans digital interfaces, interactive experiences, and the convergence of design and technology.</>
+        description: <>Saya berkomitmen untuk terus mengembangkan kemampuan saya dalam menciptakan solusi berbasis teknologi yang inovatif dan efisien, serta beradaptasi dengan perkembangan terbaru di dunia teknologi informasi. Selain itu, saya selalu berusaha untuk mengasah keterampilan analitis dan problem-solving saya, yang sangat penting dalam menciptakan sistem yang lebih cerdas dan responsif terhadap tantangan yang ada.</>
     },
     work: {
-        display: true, // set to false to hide this section
+        // display: true, // set to false to hide this section
         title: 'Work Experience',
         experiences: [
             {
@@ -109,12 +109,12 @@ const about = {
         title: 'Studies',
         institutions: [
             {
-                name: 'University of Jakarta',
-                description: <>Studied software engineering.</>,
+                name: 'Universitas Putra Indonesia Yptk padang',
+                description: <>Teknik Informatika</>,
             },
             {
-                name: 'Build the Future',
-                description: <>Studied online marketing and personal branding.</>,
+                name: 'AI basic By Huawei',
+                description: <>Overview Of AI</>,
             }
         ]
     },
@@ -158,13 +158,13 @@ const about = {
     }
 }
 
-const blog = {
-    label: 'Blog',
-    title: 'Writing about design and tech...',
-    description: `Read what ${person.name} has been up to recently`
-    // Create new blog posts by adding a new .mdx file to app/blog/posts
-    // All posts will be listed on the /blog route
-}
+// const blog = {
+//     label: 'Blog',
+//     title: 'Writing about design and tech...',
+//     description: `Read what ${person.name} has been up to recently`
+//     // Create new blog posts by adding a new .mdx file to app/blog/posts
+//     // All posts will be listed on the /blog route
+// }
 
 const work = {
     label: 'Work',
@@ -174,83 +174,83 @@ const work = {
     // All projects will be listed on the /home and /work routes
 }
 
-const gallery = {
-    label: 'Gallery',
-    title: 'My photo gallery',
-    description: `A photo collection by ${person.name}`,
-    // Images from https://pexels.com
-    images: [
-        { 
-            src: '/images/gallery/img-01.jpg', 
-            alt: 'image',
-            orientation: 'vertical'
-        },
-        { 
-            src: '/images/gallery/img-02.jpg', 
-            alt: 'image',
-            orientation: 'horizontal'
-        },
-        { 
-            src: '/images/gallery/img-03.jpg', 
-            alt: 'image',
-            orientation: 'vertical'
-        },
-        { 
-            src: '/images/gallery/img-04.jpg', 
-            alt: 'image',
-            orientation: 'horizontal'
-        },
-        { 
-            src: '/images/gallery/img-05.jpg', 
-            alt: 'image',
-            orientation: 'horizontal'
-        },
-        { 
-            src: '/images/gallery/img-06.jpg', 
-            alt: 'image',
-            orientation: 'vertical'
-        },
-        { 
-            src: '/images/gallery/img-07.jpg', 
-            alt: 'image',
-            orientation: 'horizontal'
-        },
-        { 
-            src: '/images/gallery/img-08.jpg', 
-            alt: 'image',
-            orientation: 'vertical'
-        },
-        { 
-            src: '/images/gallery/img-09.jpg', 
-            alt: 'image',
-            orientation: 'horizontal'
-        },
-        { 
-            src: '/images/gallery/img-10.jpg', 
-            alt: 'image',
-            orientation: 'horizontal'
-        },
-        { 
-            src: '/images/gallery/img-11.jpg', 
-            alt: 'image',
-            orientation: 'vertical'
-        },
-        { 
-            src: '/images/gallery/img-12.jpg', 
-            alt: 'image',
-            orientation: 'horizontal'
-        },
-        { 
-            src: '/images/gallery/img-13.jpg', 
-            alt: 'image',
-            orientation: 'horizontal'
-        },
-        { 
-            src: '/images/gallery/img-14.jpg', 
-            alt: 'image',
-            orientation: 'horizontal'
-        },
-    ]
-}
+// const gallery = {
+//     label: 'Gallery',
+//     title: 'My photo gallery',
+//     description: `A photo collection by ${person.name}`,
+//     // Images from https://pexels.com
+//     images: [
+//         { 
+//             src: '/images/gallery/img-01.jpg', 
+//             alt: 'image',
+//             orientation: 'vertical'
+//         },
+//         { 
+//             src: '/images/gallery/img-02.jpg', 
+//             alt: 'image',
+//             orientation: 'horizontal'
+//         },
+//         { 
+//             src: '/images/gallery/img-03.jpg', 
+//             alt: 'image',
+//             orientation: 'vertical'
+//         },
+//         { 
+//             src: '/images/gallery/img-04.jpg', 
+//             alt: 'image',
+//             orientation: 'horizontal'
+//         },
+//         { 
+//             src: '/images/gallery/img-05.jpg', 
+//             alt: 'image',
+//             orientation: 'horizontal'
+//         },
+//         { 
+//             src: '/images/gallery/img-06.jpg', 
+//             alt: 'image',
+//             orientation: 'vertical'
+//         },
+//         { 
+//             src: '/images/gallery/img-07.jpg', 
+//             alt: 'image',
+//             orientation: 'horizontal'
+//         },
+//         { 
+//             src: '/images/gallery/img-08.jpg', 
+//             alt: 'image',
+//             orientation: 'vertical'
+//         },
+//         { 
+//             src: '/images/gallery/img-09.jpg', 
+//             alt: 'image',
+//             orientation: 'horizontal'
+//         },
+//         { 
+//             src: '/images/gallery/img-10.jpg', 
+//             alt: 'image',
+//             orientation: 'horizontal'
+//         },
+//         { 
+//             src: '/images/gallery/img-11.jpg', 
+//             alt: 'image',
+//             orientation: 'vertical'
+//         },
+//         { 
+//             src: '/images/gallery/img-12.jpg', 
+//             alt: 'image',
+//             orientation: 'horizontal'
+//         },
+//         { 
+//             src: '/images/gallery/img-13.jpg', 
+//             alt: 'image',
+//             orientation: 'horizontal'
+//         },
+//         { 
+//             src: '/images/gallery/img-14.jpg', 
+//             alt: 'image',
+//             orientation: 'horizontal'
+//         },
+//     ]
+// }
 
-export { person, social, newsletter, home, about, blog, work, gallery };
+export { person, social, newsletter, home, about, work};

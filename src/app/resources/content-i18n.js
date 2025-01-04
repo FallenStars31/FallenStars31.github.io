@@ -2,8 +2,8 @@ import { InlineCode } from "@/once-ui/components";
 
 const createI18nContent = (t) => {
     const person = {
-        firstName: 'Selene',
-        lastName:  'Yu',
+        firstName: 'Naufal',
+        lastName:  'Ikhsan',
         get name() {
             return `${this.firstName} ${this.lastName}`;
         },
@@ -25,22 +25,22 @@ const createI18nContent = (t) => {
         {
             name: 'GitHub',
             icon: 'github',
-            link: 'https://github.com/once-ui-system/nextjs-starter',
+            link: 'https://github.com/FallenStars31',
         },
         {
             name: 'LinkedIn',
             icon: 'linkedin',
-            link: 'https://www.linkedin.com/company/once-ui/',
+            link: 'https://www.linkedin.com/in/naufal-ikhsan-835ba8218/',
         },
         {
-            name: 'X',
-            icon: 'x',
+            name: 'instagram',
+            icon: 'instagram',
             link: '',
         },
         {
             name: 'Email',
             icon: 'email',
-            link: 'mailto:example@gmail.com',
+            link: 'naufaliksan78@gmail.com',
         },
     ]
 
